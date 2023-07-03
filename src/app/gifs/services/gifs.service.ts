@@ -5,7 +5,7 @@ import { Gif, GifData } from '../interfaces/serviceResponse.interface';
 @Injectable({providedIn: 'root'})
 export class GifsService {
 
-    private serviceUrl: string = 'http://api.giphy.com/v1/gifs';
+    private serviceUrl: string = 'https://api.giphy.com/v1/gifs';
     private apiKey: string = 'hedfNKj3P0iGuWXWS3S9bZdoKeOMLI9M';
 
     public gifsList: Gif[] = [];
